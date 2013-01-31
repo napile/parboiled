@@ -17,12 +17,12 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.MethodVisitor;
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.*;
+import org.objectweb.asm4.ClassWriter;
+import org.objectweb.asm4.MethodVisitor;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.*;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 import static org.parboiled.transform.AsmUtils.findLoadedClass;
 import static org.parboiled.transform.AsmUtils.loadClass;
 

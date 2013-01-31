@@ -23,15 +23,15 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.*;
-import org.objectweb.asm.tree.MethodNode;
+import org.objectweb.asm4.*;
+import org.objectweb.asm4.tree.MethodNode;
 import org.parboiled.support.Checks;
 
 import java.io.IOException;
 
 import static org.parboiled.transform.AsmUtils.createClassReader;
 import static org.parboiled.transform.AsmUtils.getExtendedParserClassName;
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 
 /**
  * Initializes the basic ParserClassNode fields and collects all methods.

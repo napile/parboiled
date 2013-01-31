@@ -17,10 +17,10 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.tree.*;
+import org.objectweb.asm4.tree.*;
 import org.parboiled.common.StringUtils;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 
 /**
  * Adds automatic labelling code before the return instruction.

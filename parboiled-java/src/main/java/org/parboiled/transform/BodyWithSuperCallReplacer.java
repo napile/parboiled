@@ -17,11 +17,11 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.tree.InsnNode;
-import org.objectweb.asm.tree.MethodInsnNode;
-import org.objectweb.asm.tree.VarInsnNode;
+import org.objectweb.asm4.tree.InsnNode;
+import org.objectweb.asm4.tree.MethodInsnNode;
+import org.objectweb.asm4.tree.VarInsnNode;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 import static org.parboiled.transform.AsmUtils.createArgumentLoaders;
 
 /**

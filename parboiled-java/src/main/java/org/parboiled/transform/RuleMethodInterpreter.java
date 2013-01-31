@@ -23,11 +23,11 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.AbstractInsnNode;
-import org.objectweb.asm.tree.analysis.AnalyzerException;
-import org.objectweb.asm.tree.analysis.BasicInterpreter;
-import org.objectweb.asm.tree.analysis.BasicValue;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.AbstractInsnNode;
+import org.objectweb.asm4.tree.analysis.AnalyzerException;
+import org.objectweb.asm4.tree.analysis.BasicInterpreter;
+import org.objectweb.asm4.tree.analysis.BasicValue;
 import org.parboiled.support.Checks;
 
 import java.util.ArrayList;

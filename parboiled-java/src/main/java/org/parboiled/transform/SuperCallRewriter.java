@@ -17,12 +17,12 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.AbstractInsnNode;
-import org.objectweb.asm.tree.InsnList;
-import org.objectweb.asm.tree.MethodInsnNode;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.AbstractInsnNode;
+import org.objectweb.asm4.tree.InsnList;
+import org.objectweb.asm4.tree.MethodInsnNode;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 
 /**
  * Replaces the method code with a simple call to the super method.

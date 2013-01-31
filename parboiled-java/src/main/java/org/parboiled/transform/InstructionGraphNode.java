@@ -23,15 +23,15 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.tree.AbstractInsnNode;
-import org.objectweb.asm.tree.analysis.BasicValue;
-import org.objectweb.asm.util.Printer;
+import org.objectweb.asm4.tree.AbstractInsnNode;
+import org.objectweb.asm4.tree.analysis.BasicValue;
+import org.objectweb.asm4.util.Printer;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 
 /**
  * A node in the instruction dependency graph.

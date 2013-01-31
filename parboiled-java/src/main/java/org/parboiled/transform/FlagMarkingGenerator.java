@@ -17,9 +17,9 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.tree.*;
+import org.objectweb.asm4.tree.*;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 
 /**
  * Adds the required flag marking calls before the return instruction.

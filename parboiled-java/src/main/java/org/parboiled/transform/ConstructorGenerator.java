@@ -17,10 +17,10 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.tree.*;
+import org.objectweb.asm4.tree.*;
 import org.parboiled.support.Checks;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 import static org.parboiled.transform.AsmUtils.createArgumentLoaders;
 
 /**

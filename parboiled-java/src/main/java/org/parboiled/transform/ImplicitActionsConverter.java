@@ -17,12 +17,12 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.AbstractInsnNode;
-import org.objectweb.asm.tree.MethodInsnNode;
-import org.objectweb.asm.tree.TypeInsnNode;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.AbstractInsnNode;
+import org.objectweb.asm4.tree.MethodInsnNode;
+import org.objectweb.asm4.tree.TypeInsnNode;
 
 import java.util.ArrayList;
 import java.util.HashSet;

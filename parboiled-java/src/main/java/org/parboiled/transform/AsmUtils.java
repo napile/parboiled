@@ -22,16 +22,7 @@
 
 package org.parboiled.transform;
 
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.Opcodes;
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.AbstractInsnNode;
-import org.objectweb.asm.tree.InsnList;
-import org.objectweb.asm.tree.MethodInsnNode;
-import org.objectweb.asm.tree.VarInsnNode;
-import org.parboiled.BaseParser;
-import org.parboiled.ContextAware;
-import org.parboiled.support.Var;
+import static org.parboiled.common.Preconditions.checkArgNotNull;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -42,7 +33,16 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.parboiled.common.Preconditions.checkArgNotNull;
+import org.objectweb.asm4.ClassReader;
+import org.objectweb.asm4.Opcodes;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.AbstractInsnNode;
+import org.objectweb.asm4.tree.InsnList;
+import org.objectweb.asm4.tree.MethodInsnNode;
+import org.objectweb.asm4.tree.VarInsnNode;
+import org.parboiled.BaseParser;
+import org.parboiled.ContextAware;
+import org.parboiled.support.Var;
 
 class AsmUtils {
 

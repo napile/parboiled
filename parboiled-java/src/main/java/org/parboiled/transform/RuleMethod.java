@@ -23,14 +23,14 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.AnnotationVisitor;
-import org.objectweb.asm.Label;
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.AbstractInsnNode;
-import org.objectweb.asm.tree.LabelNode;
-import org.objectweb.asm.tree.LocalVariableNode;
-import org.objectweb.asm.tree.MethodNode;
-import org.objectweb.asm.tree.analysis.BasicValue;
+import org.objectweb.asm4.AnnotationVisitor;
+import org.objectweb.asm4.Label;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.AbstractInsnNode;
+import org.objectweb.asm4.tree.LabelNode;
+import org.objectweb.asm4.tree.LocalVariableNode;
+import org.objectweb.asm4.tree.MethodNode;
+import org.objectweb.asm4.tree.analysis.BasicValue;
 import org.parboiled.BaseParser;
 import org.parboiled.common.StringUtils;
 import org.parboiled.support.Var;
@@ -39,7 +39,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 import static org.parboiled.transform.AsmUtils.*;
 
 class RuleMethod extends MethodNode {

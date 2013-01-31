@@ -16,7 +16,7 @@
 
 package org.parboiled.transform;
 
-import org.objectweb.asm.Type;
+import org.objectweb.asm4.Type;
 import org.parboiled.*;
 import org.parboiled.annotations.*;
 import org.parboiled.Action;

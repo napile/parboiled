@@ -23,15 +23,15 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.tree.FieldInsnNode;
-import org.objectweb.asm.tree.InsnList;
-import org.objectweb.asm.tree.MethodInsnNode;
+import org.objectweb.asm4.tree.FieldInsnNode;
+import org.objectweb.asm4.tree.InsnList;
+import org.objectweb.asm4.tree.MethodInsnNode;
 import org.parboiled.support.Checks;
 
 import java.lang.reflect.Modifier;
 import java.util.*;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 import static org.parboiled.transform.AsmUtils.*;
 
 class InstructionGroupCreator implements RuleMethodProcessor  {

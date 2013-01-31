@@ -22,14 +22,14 @@
 
 package org.parboiled.transform;
 
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.*;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm4.Opcodes.*;
 import static org.parboiled.common.Preconditions.checkArgNotNull;
 import static org.parboiled.common.Preconditions.checkState;
 import static org.parboiled.common.Utils.toObjectArray;

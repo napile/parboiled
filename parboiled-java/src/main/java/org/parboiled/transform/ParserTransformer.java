@@ -17,7 +17,7 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.ClassWriter;
+import org.objectweb.asm4.ClassWriter;
 import org.parboiled.common.ImmutableList;
 
 import java.util.List;

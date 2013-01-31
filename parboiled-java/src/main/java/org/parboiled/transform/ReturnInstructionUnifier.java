@@ -17,12 +17,12 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.tree.AbstractInsnNode;
-import org.objectweb.asm.tree.JumpInsnNode;
-import org.objectweb.asm.tree.LabelNode;
+import org.objectweb.asm4.tree.AbstractInsnNode;
+import org.objectweb.asm4.tree.JumpInsnNode;
+import org.objectweb.asm4.tree.LabelNode;
 
-import static org.objectweb.asm.Opcodes.ARETURN;
-import static org.objectweb.asm.Opcodes.GOTO;
+import static org.objectweb.asm4.Opcodes.ARETURN;
+import static org.objectweb.asm4.Opcodes.GOTO;
 
 /**
  * Replaces all "non-last" return instructions with goto instructions to the last return instruction.

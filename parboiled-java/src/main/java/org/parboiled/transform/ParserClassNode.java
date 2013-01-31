@@ -23,9 +23,9 @@
 package org.parboiled.transform;
 
 import static org.parboiled.common.Preconditions.*;
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.ClassNode;
-import org.objectweb.asm.tree.MethodNode;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.ClassNode;
+import org.objectweb.asm4.tree.MethodNode;
 
 import java.util.*;
 

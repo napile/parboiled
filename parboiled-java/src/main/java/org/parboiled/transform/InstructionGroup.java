@@ -16,9 +16,9 @@
 
 package org.parboiled.transform;
 
-import org.objectweb.asm.Type;
-import org.objectweb.asm.tree.FieldNode;
-import org.objectweb.asm.tree.InsnList;
+import org.objectweb.asm4.Type;
+import org.objectweb.asm4.tree.FieldNode;
+import org.objectweb.asm4.tree.InsnList;
 
 import java.util.ArrayList;
 import java.util.List;
